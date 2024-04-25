@@ -20,7 +20,7 @@ app.use(express.urlencoded({extended : true}));
 const limiter = rateLimit({windowMs: 15 * 60 * 1000, max:3000});
 app.use(limiter);
  
-let mongodbUrl = 'mongodb://localhost:27017/taskManagement';
+let mongodbUrl = 'mongodb://localhost:27017/ostadFoodCurdApp';
 let OPTION={user:"", pass:"", autoIndex:true};
 
 mongoose.connect(mongodbUrl, OPTION).then((res) => {
