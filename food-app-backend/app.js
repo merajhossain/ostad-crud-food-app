@@ -20,13 +20,14 @@ app.use(express.urlencoded({extended : true}));
 const limiter = rateLimit({windowMs: 15 * 60 * 1000, max:3000});
 app.use(limiter);
  
-let mongodbUrl = 'mongodb://localhost:27017/ostadFoodCurdApp';
-let OPTION={user:"", pass:"", autoIndex:true};
+// let mongodbUrl = 'mongodb://localhost:27017/ostadFoodCurdApp';
+let mongodbUrl = 'mongodb+srv://merajhossain29:THW90Oh2RLUBckFB@cluster0.u2kx4xe.mongodb.net/ostadFoodCurdApp';
+let OPTION={user:"merajhossain29", pass:"THW90Oh2RLUBckFB", autoIndex:true};
 
 mongoose.connect(mongodbUrl, OPTION).then((res) => {
     console.log("database connected");
 }).catch((err) => {
-    console.log("something worng");
+    console.log("something worng", err);
 });
 
 
