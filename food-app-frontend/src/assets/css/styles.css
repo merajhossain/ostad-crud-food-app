@@ -18,7 +18,7 @@
   background-color: #FFFFFF;
   margin-top: 63px;
   border-top: 1px solid #c8cbd9;
-  padding: 40px;
+  padding: 40px 90px 40px 40px;
 }
 .main-content .page-title h1 {
   font-size: 18px;
@@ -26,6 +26,9 @@
   line-height: 23px;
   letter-spacing: 0.5px;
   margin: 0;
+}
+.main-content .content-body {
+  margin-top: 40px;
 }
 
 .logo-wrapper {
@@ -55,6 +58,106 @@
   line-height: 11px;
   letter-spacing: 0.5px;
   text-align: left;
+  color: #5A67BA;
+}
+
+.custom-col-3 {
+  width: 250px;
+  max-width: 100%;
+}
+
+.food-card {
+  position: relative;
+}
+.food-card .card-img-top {
+  height: 121px;
+  max-height: 100%;
+  object-fit: none;
+}
+.food-card .card-title {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.5px;
+}
+.food-card .btn-custom-secondary {
+  background-color: #F5F7FA;
+  color: #4CAF4F;
+  font-size: 12px;
+  line-height: 24px;
+}
+.food-card .btn-custom-danger {
+  background-color: #FEE2E2;
+  color: #EF4444;
+  font-size: 12px;
+  line-height: 24px;
+}
+.food-card .price {
+  background-color: #A855F7;
+  color: #FFFFFF;
+  font-size: 9px;
+  line-height: 20px;
+  border-radius: 5px;
+  padding: 0 10px;
+  position: absolute;
+  right: 15px;
+  top: 20px;
+}
+
+.custom-form .form-label {
+  font-size: 14px;
+  color: #000;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+}
+.custom-form .form-control {
+  border-color: #f1f2f7;
+  border-radius: 10px;
+  height: 55px;
+}
+
+.custom-primary-button {
+  background: #5A67BA;
+  border-color: #5A67BA;
+  color: #FFFFFF;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.5px;
+  padding: 15px 50px;
+}
+.custom-primary-button:hover {
+  background: #5A67BA;
+  border-color: #5A67BA;
+}
+
+.custom-navs {
+  padding: 40px 20px;
+  list-style: none;
+}
+.custom-navs span {
+  font-size: 11px;
+  line-height: 11px;
+  letter-spacing: 1px;
+  color: #082431;
+  margin-bottom: 12px;
+  padding: 0 20px;
+}
+.custom-navs i {
+  color: A6ABC8;
+}
+.custom-navs a {
+  padding: 15px 20px;
+  color: #273240;
+  border-radius: 5px;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  display: block;
+}
+.custom-navs a.active {
+  background: rgba(112, 127, 221, 0.1);
   color: #5A67BA;
 }
 

@@ -18,7 +18,7 @@
   background-color: #FFFFFF;
   margin-top: 63px;
   border-top: 1px solid #c8cbd9;
-  padding: 40px;
+  padding: 40px 90px 40px 40px;
 }
 .main-content .page-title h1 {
   font-size: 18px;
@@ -26,6 +26,9 @@
   line-height: 23px;
   letter-spacing: 0.5px;
   margin: 0;
+}
+.main-content .content-body {
+  margin-top: 40px;
 }
 
 .logo-wrapper {
@@ -64,4 +67,4 @@
   }
 }
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=E%3Afood-appostad-crud-food-appfood-app-frontendsrcassetscssstyles.css.map */
