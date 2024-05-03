@@ -16,6 +16,16 @@
 
 .main-content {
   background-color: #FFFFFF;
+  margin-top: 63px;
+  border-top: 1px solid #c8cbd9;
+  padding: 40px;
+}
+.main-content .page-title h1 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0.5px;
+  margin: 0;
 }
 
 .logo-wrapper {

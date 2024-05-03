@@ -9,7 +9,7 @@ const Layout = (props) => {
                     <Sidebar />
                 </div>
                 <div className="main-content">
-                    this is demo
+                    {props.children}
                 </div>
             </div>
         </>
