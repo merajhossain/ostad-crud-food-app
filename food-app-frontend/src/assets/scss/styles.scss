@@ -163,7 +163,13 @@
 }
 
 @media screen and (max-width: 767px) {
-  .sidebar{
-    display: none;
+  // .sidebar{
+  //   display: none;
+  // }
+  .parent{
+    display: block;
+  }
+  .main-content{
+    padding: 40px;
   }
 }
